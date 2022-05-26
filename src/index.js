@@ -5,9 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const student = ["Ajay Ravesh","Suraj Verma","Nitish Gupta","Nikhil Bhardwaj"]
 root.render(
   <React.StrictMode>
-    <App />
+    <App ListItems = {student}/>
   </React.StrictMode>
 );
 
